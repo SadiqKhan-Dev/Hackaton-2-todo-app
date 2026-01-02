@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(sp.constitution)",
+      "Skill(sp.specify)",
+      "Bash(ls:*)",
+      "Bash(.specify/scripts/bash/create-new-feature.sh:*)",
+      "Skill(sp.plan)",
+      "Bash(.specify/scripts/bash/setup-plan.sh:*)",
+      "Bash(.specify/scripts/bash/update-agent-context.sh:*)",
+      "Skill(sp.tasks)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(python:*)",
+      "Bash(mkdir -p src/models src/services src/cli src/utils tests/contract tests/integration tests/unit)",
+      "Bash(cat:*)",
+      "Bash(printf:*)"
+    ]
+  }
+}
